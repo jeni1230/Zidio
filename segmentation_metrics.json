@@ -1,0 +1,21 @@
+{
+  "n_clusters": 6,
+  "silhouette_score": 0.2919202730944115,
+  "dbscan_outliers": 10,
+  "segment_sizes": {
+    "Champions": 876,
+    "Loyal Customers": 854,
+    "Potential Loyalists": 381,
+    "At Risk": 308,
+    "Hibernating / Lost": 293,
+    "Needs Attention": 265
+  },
+  "silhouette_sweep": {
+    "4": 0.3286197412599872,
+    "5": 0.36476975721117016,
+    "6": 0.2919202730944115,
+    "7": 0.28060610877452435,
+    "8": 0.2978128338330991,
+    "9": 0.2864021743812699
+  }
+}

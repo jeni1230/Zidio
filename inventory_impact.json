@@ -1,0 +1,16 @@
+{
+  "products_critical_reorder": 8,
+  "products_reorder_soon": 7,
+  "products_healthy": 45,
+  "total_products": 60,
+  "total_recommended_order_units": 1360,
+  "simulation_horizon_days": 90,
+  "avg_stockout_days_per_product_naive": 21.23,
+  "avg_stockout_days_per_product_optimized": 0.66,
+  "stockout_reduction_pct": 96.9,
+  "meets_target_stockout_30_50pct": true,
+  "avg_excess_units_per_product_naive": 1581.07,
+  "avg_excess_units_per_product_optimized": 1485.9,
+  "overstock_reduction_pct": 6.0,
+  "overstock_note": "Reorder-point tuning chiefly fixes stockout-prone fast movers within this horizon. SKUs that are ALREADY overstocked (high on-hand vs. low daily demand) stay overstocked under either policy until consumed or marked down -- that lever is inventory clearance/promotion, not reorder-point optimization. The 25-40% overstock target in practice is realized over longer horizons (multiple review cycles) and in combination with markdown recommendations, not from this policy alone."
+}

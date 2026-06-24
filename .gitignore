@@ -1,0 +1,31 @@
+# Data (regenerate via src/data_generation.py - don't commit large CSVs)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models & experiment tracking
+models/*.json
+models/*.pkl
+models/*.pt
+mlruns/
+mlartifacts/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml

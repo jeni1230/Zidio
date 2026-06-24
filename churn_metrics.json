@@ -1,0 +1,20 @@
+{
+  "auc_roc": 0.9166,
+  "precision_at_top_20pct": 0.9254,
+  "meets_target_auc_088": true,
+  "meets_target_precision_075": true,
+  "churn_rate_pct": 27.79,
+  "n_customers_scored": 2681,
+  "top_churn_drivers": {
+    "recency_days": 1.2158470153808594,
+    "total_quantity": 0.5532473921775818,
+    "archetype_regular": 0.4627721607685089,
+    "txns_last_90d": 0.37663960456848145,
+    "archetype_occasional": 0.3311185836791992,
+    "frequency": 0.2693166136741638,
+    "tenure_days": 0.2671176493167877,
+    "archetype_new": 0.2654072940349579,
+    "age": 0.2384762018918991,
+    "txns_prev_90d": 0.2250649780035019
+  }
+}

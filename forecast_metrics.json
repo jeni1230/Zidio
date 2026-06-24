@@ -1,0 +1,8 @@
+{
+  "prophet_only_mape": 7.55,
+  "prophet_lstm_residual_mape": 6.97,
+  "ensemble_mape": 6.97,
+  "ensemble_weight_lstm": 1.0,
+  "meets_target_mape_12pct": true,
+  "forecast_horizon_days": 30
+}

@@ -1,0 +1,9 @@
+{
+  "n_rows_raw": 118642,
+  "n_duplicates": 354,
+  "n_missing_unit_price": 592,
+  "n_negative_quantity_returns": 1187,
+  "n_null_customer_id": 0,
+  "date_min": "2024-01-02",
+  "date_max": "2026-06-18"
+}

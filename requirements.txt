@@ -1,0 +1,30 @@
+# RetailPulse - Python dependencies
+# Tested with Python 3.11/3.12
+
+# Core data processing
+pandas>=2.3,<3.1
+numpy>=2.0,<2.5
+
+# Machine learning
+scikit-learn>=1.7,<1.9
+xgboost>=3.0,<3.4
+shap>=0.50,<0.53
+
+# Forecasting
+prophet>=1.1.5,<1.4
+cmdstanpy>=1.2,<1.4
+
+# Deep learning (LSTM component)
+torch>=2.5,<2.13
+
+# Dashboard & visualization
+streamlit>=1.45,<1.60
+plotly>=5.20,<6.9
+matplotlib>=3.9,<3.11
+
+# MLOps / tracking
+mlflow>=2.15,<3.15
+statsmodels>=0.14,<0.15
+
+# Optional - data quality validation (mentioned in execution plan, Day 2)
+great_expectations>=0.18,<0.19
